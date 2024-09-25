@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARAN KUMAR S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>SARAN KUMAR S</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>SARAN KUMAR S</h2>
+        <p>WEB DEVELOPER</p><br><br>
+        <a href="resume.html" class="btn">View Resume</a><img src="Photo.jpeg" id="image">
+    </div>
+    </section>
+</header>
+   
+    <section id="about">
+        <h2 style="text-align: center; font-size: 40px;">About Me</h2><br><br><br>
+        <div class="about">
+        <ul>I’m Saran Kumar S, a Web Developer with a passion for creating engaging websites.</ul><br>
+
+            <ul>I believe in the power of design and technology to enhance user experiences. My approach combines to deliver solutions that are not only functional but also visually appealing.</ul><br>
+            
+            <ul>I am always eager to learn and stay updated with industry trends, constantly seeking new challenges that push my boundaries. When I’m not coding or designing, you can find me Reading Books, Playing Cricket.</ul>
+        </div>
+    </section><br><br>
+
+    <section id="education">
+        <h2 style="text-align: center; font-size: 40px;">Education</h2><br>
+        <div class="project">
+            <h3>Master of Computer Application</h3>
+            <p>Madurai Kamaraj University</p>
+            <p>Pursuing</p>
+            <p>Duration: 2023 - 2025</p>
+        </div>
+        <div class="project">
+            <h3>Bachelor of Science in Physics</h3>
+            <p>The Madura College</p>
+            <p>Percentage: 75%</p>
+            <p>Duration: 2020 - 2023</p>
+        </div>
+        <div class="project">
+            <h3>HSC</h3>
+            <p>Sethupathi Hr Sec School</p>
+            <p>Percentage: 54%</p>
+            <p>Duration: 2019 - 2020</p>
+        </div>
+        <div class="project">
+            <h3>SSLC</h3>
+            <p>Gurukulam High School</p>
+            <p>Percentage: 82%</p>
+            <p>Duration: 2017 - 2018</p>
+        </div> 
+    </section>
+
+    <section id="certification">
+        <h2 style="text-align: center; font-size: 40px;">Certification</h2><br><br>
+        <div class="grid-container">
+            <div class="grid-item">State level Inter-Institutional Physics meet held at Bharathidasan University and Participate in Apeiron 2021 QuizBee.</div>
+            <div class="grid-item">Certified in "Web Designing Tools" course during the academic yera 2021-2022.</div>
+            <div class="grid-item">Certified in "MATLAB Programming using Octave" course during the academic year 2021.</div>
+            <div class="grid-item">Certified in "Artificial Intelligence and Machine Learning" course by The Madura College & Maxelerator Foundation.</div>
+            <div class="grid-item">Attended Two days workshop at NIT Trichy in the topic of Web Technology.</div>
+         
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 style="text-align: center; font-size: 40px;">Skills</h2><br>
+        <ul>
+            <li>HTML & CSS</li><br>
+            <li>JavaScript</li><br>
+            <li>Python</li><br>
+            <li>MS Office</li>
+            
+        </ul>
+    </section>
+
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2><br>
+            <form id="contact-form">
+                <label>Name : </label><input type="text" placeholder="Your Name" required><br><br>
+                <label>Email : </label><input type="email" placeholder="Your Email" required><br><br>
+                <label>Text here : </label><textarea placeholder="Type here" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form><br><br>
+            <p><b>Email-id:</b> sarangayu008@gmail.com</p>
+            <p><b>Phone No:</b> 9003368021</p>
+        </section>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Message sent! Thank you for contacting me.');
+    this.reset(); // Clear the form
+});
+    </script>
+
+</body>
+</html>
+
